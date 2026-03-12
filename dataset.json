@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "English",
+    "clause": "The employee may not work with any competitor for 5 years after leaving the company.",
+    "risk_level": "High",
+    "explanation": "An excessively long non-compete period is unfair and may be legally unenforceable.",
+    "suggested_alternative": "Restrict non-compete period to 6–12 months."
+  },
+  {
+    "id": 2,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 3,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 4,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 5,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 6,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 7,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 8,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 9,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 10,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "मकान मालिक बिना किसी कारण के केवल 7 दिन के नोटिस पर किरायेदार को निकाल सकता है।",
+    "risk_level": "High",
+    "explanation": "कम नोटिस और बिना कारण बेदखली किरायेदार के लिए अनुचित है।",
+    "suggested_alternative": "30–60 दिन का नोटिस और उचित कारण आवश्यक करें."
+  },
+  {
+    "id": 11,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 12,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 13,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 14,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 15,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "English",
+    "clause": "The rent shall increase by 15% every year.",
+    "risk_level": "Medium",
+    "explanation": "Annual 15% hikes may make the lease unaffordable quickly.",
+    "suggested_alternative": "Cap rent increase to 5–7% annually."
+  },
+  {
+    "id": 16,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "முதன்மை 1 நாள் முன்னறிவிப்புடன் ஊழியரை காரணமின்றி நீக்கலாம்.",
+    "risk_level": "High",
+    "explanation": "அநியாயமான பணி நீக்க விதிகள் ஊழியர்களுக்கு பாதுகாப்பின்மையை ஏற்படுத்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 17,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 18,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 19,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 20,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 21,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 22,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 23,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "English",
+    "clause": "The employee may not work with any competitor for 5 years after leaving the company.",
+    "risk_level": "High",
+    "explanation": "An excessively long non-compete period is unfair and may be legally unenforceable.",
+    "suggested_alternative": "Restrict non-compete period to 6–12 months."
+  },
+  {
+    "id": 24,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 25,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 26,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் பொருள் கிடைத்த 60 நாட்களுக்குள் விற்பனையாளருக்கு பணம் செலுத்த வேண்டும்.",
+    "risk_level": "Medium",
+    "explanation": "நீண்ட கட்டண காலம் விற்பனையாளரின் பணப்புழக்கத்தை பாதிக்கலாம்.",
+    "suggested_alternative": "கட்டண காலத்தை 30 நாட்களாக குறைக்கவும்."
+  },
+  {
+    "id": 27,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 28,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 29,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 30,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "English",
+    "clause": "The rent shall increase by 15% every year.",
+    "risk_level": "Medium",
+    "explanation": "Annual 15% hikes may make the lease unaffordable quickly.",
+    "suggested_alternative": "Cap rent increase to 5–7% annually."
+  },
+  {
+    "id": 31,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 32,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 33,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 34,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 35,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 36,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 37,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 38,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 39,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 40,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 41,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 42,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 43,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 44,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 45,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 46,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 47,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 48,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 49,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 50,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 51,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 52,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 53,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 54,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 55,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 56,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 57,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 58,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 59,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 60,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 61,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 62,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "खरीदार बिना किसी नोटिस के अनुबंध तुरंत समाप्त कर सकता है।",
+    "risk_level": "High",
+    "explanation": "बिना नोटिस अनुबंध समाप्त करना विक्रेता को जोखिम में डालता है।",
+    "suggested_alternative": "समाप्ति के लिए कम से कम 30 दिन का नोटिस आवश्यक करें."
+  },
+  {
+    "id": 63,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 64,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 65,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 66,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 67,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 68,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 69,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "English",
+    "clause": "The employee may not work with any competitor for 5 years after leaving the company.",
+    "risk_level": "High",
+    "explanation": "An excessively long non-compete period is unfair and may be legally unenforceable.",
+    "suggested_alternative": "Restrict non-compete period to 6–12 months."
+  },
+  {
+    "id": 70,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 71,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 72,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் பொருள் கிடைத்த 60 நாட்களுக்குள் விற்பனையாளருக்கு பணம் செலுத்த வேண்டும்.",
+    "risk_level": "Medium",
+    "explanation": "நீண்ட கட்டண காலம் விற்பனையாளரின் பணப்புழக்கத்தை பாதிக்கலாம்.",
+    "suggested_alternative": "கட்டண காலத்தை 30 நாட்களாக குறைக்கவும்."
+  },
+  {
+    "id": 73,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 74,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 75,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 76,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "முதன்மை 1 நாள் முன்னறிவிப்புடன் ஊழியரை காரணமின்றி நீக்கலாம்.",
+    "risk_level": "High",
+    "explanation": "அநியாயமான பணி நீக்க விதிகள் ஊழியர்களுக்கு பாதுகாப்பின்மையை ஏற்படுத்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 77,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 78,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 79,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 80,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 81,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "English",
+    "clause": "The rent shall increase by 15% every year.",
+    "risk_level": "Medium",
+    "explanation": "Annual 15% hikes may make the lease unaffordable quickly.",
+    "suggested_alternative": "Cap rent increase to 5–7% annually."
+  },
+  {
+    "id": 82,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 83,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 84,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 85,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 86,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 87,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "खरीदार बिना किसी नोटिस के अनुबंध तुरंत समाप्त कर सकता है।",
+    "risk_level": "High",
+    "explanation": "बिना नोटिस अनुबंध समाप्त करना विक्रेता को जोखिम में डालता है।",
+    "suggested_alternative": "समाप्ति के लिए कम से कम 30 दिन का नोटिस आवश्यक करें."
+  },
+  {
+    "id": 88,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 89,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 90,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 91,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "मकान मालिक बिना किसी कारण के केवल 7 दिन के नोटिस पर किरायेदार को निकाल सकता है।",
+    "risk_level": "High",
+    "explanation": "कम नोटिस और बिना कारण बेदखली किरायेदार के लिए अनुचित है।",
+    "suggested_alternative": "30–60 दिन का नोटिस और उचित कारण आवश्यक करें."
+  },
+  {
+    "id": 92,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 93,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "முதன்மை 1 நாள் முன்னறிவிப்புடன் ஊழியரை காரணமின்றி நீக்கலாம்.",
+    "risk_level": "High",
+    "explanation": "அநியாயமான பணி நீக்க விதிகள் ஊழியர்களுக்கு பாதுகாப்பின்மையை ஏற்படுத்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 94,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 95,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 96,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 97,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 98,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 99,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 100,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 101,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "मकान मालिक बिना किसी कारण के केवल 7 दिन के नोटिस पर किरायेदार को निकाल सकता है।",
+    "risk_level": "High",
+    "explanation": "कम नोटिस और बिना कारण बेदखली किरायेदार के लिए अनुचित है।",
+    "suggested_alternative": "30–60 दिन का नोटिस और उचित कारण आवश्यक करें."
+  },
+  {
+    "id": 102,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 103,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 104,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 105,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 106,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 107,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 108,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 109,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The employer may terminate the employee without any reason by giving 1 day notice.",
+    "risk_level": "High",
+    "explanation": "Unfair termination terms create insecurity for employees.",
+    "suggested_alternative": "Require a minimum notice period of 30 days with valid reasons."
+  },
+  {
+    "id": 110,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 111,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Tamil",
+    "clause": "நிறுவனத்தை விட்டு சென்ற பின் 5 ஆண்டுகள் ஊழியர் போட்டியாளர்களிடம் வேலை செய்ய முடியாது.",
+    "risk_level": "High",
+    "explanation": "மிக நீண்ட போட்டி தவிர்ப்பு காலம் அநியாயமாகவும் சட்டரீதியாக செல்லாததாகவும் இருக்கலாம்.",
+    "suggested_alternative": "போட்டி தவிர்ப்பு காலத்தை 6–12 மாதங்களாக மட்டுப்படுத்தவும்."
+  },
+  {
+    "id": 112,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 113,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 114,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 115,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 116,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "खरीदार बिना किसी नोटिस के अनुबंध तुरंत समाप्त कर सकता है।",
+    "risk_level": "High",
+    "explanation": "बिना नोटिस अनुबंध समाप्त करना विक्रेता को जोखिम में डालता है।",
+    "suggested_alternative": "समाप्ति के लिए कम से कम 30 दिन का नोटिस आवश्यक करें."
+  },
+  {
+    "id": 117,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 118,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "खरीदार बिना किसी नोटिस के अनुबंध तुरंत समाप्त कर सकता है।",
+    "risk_level": "High",
+    "explanation": "बिना नोटिस अनुबंध समाप्त करना विक्रेता को जोखिम में डालता है।",
+    "suggested_alternative": "समाप्ति के लिए कम से कम 30 दिन का नोटिस आवश्यक करें."
+  },
+  {
+    "id": 119,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 120,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Tamil",
+    "clause": "நிறுவனத்தை விட்டு சென்ற பின் 5 ஆண்டுகள் ஊழியர் போட்டியாளர்களிடம் வேலை செய்ய முடியாது.",
+    "risk_level": "High",
+    "explanation": "மிக நீண்ட போட்டி தவிர்ப்பு காலம் அநியாயமாகவும் சட்டரீதியாக செல்லாததாகவும் இருக்கலாம்.",
+    "suggested_alternative": "போட்டி தவிர்ப்பு காலத்தை 6–12 மாதங்களாக மட்டுப்படுத்தவும்."
+  },
+  {
+    "id": 121,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 122,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 123,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "English",
+    "clause": "The employee may not work with any competitor for 5 years after leaving the company.",
+    "risk_level": "High",
+    "explanation": "An excessively long non-compete period is unfair and may be legally unenforceable.",
+    "suggested_alternative": "Restrict non-compete period to 6–12 months."
+  },
+  {
+    "id": 124,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 125,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 126,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Tamil",
+    "clause": "நிறுவனத்தை விட்டு சென்ற பின் 5 ஆண்டுகள் ஊழியர் போட்டியாளர்களிடம் வேலை செய்ய முடியாது.",
+    "risk_level": "High",
+    "explanation": "மிக நீண்ட போட்டி தவிர்ப்பு காலம் அநியாயமாகவும் சட்டரீதியாக செல்லாததாகவும் இருக்கலாம்.",
+    "suggested_alternative": "போட்டி தவிர்ப்பு காலத்தை 6–12 மாதங்களாக மட்டுப்படுத்தவும்."
+  },
+  {
+    "id": 127,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 128,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The employer may terminate the employee without any reason by giving 1 day notice.",
+    "risk_level": "High",
+    "explanation": "Unfair termination terms create insecurity for employees.",
+    "suggested_alternative": "Require a minimum notice period of 30 days with valid reasons."
+  },
+  {
+    "id": 129,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 130,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "English",
+    "clause": "The rent shall increase by 15% every year.",
+    "risk_level": "Medium",
+    "explanation": "Annual 15% hikes may make the lease unaffordable quickly.",
+    "suggested_alternative": "Cap rent increase to 5–7% annually."
+  },
+  {
+    "id": 131,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 132,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 133,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 134,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 135,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் பொருள் கிடைத்த 60 நாட்களுக்குள் விற்பனையாளருக்கு பணம் செலுத்த வேண்டும்.",
+    "risk_level": "Medium",
+    "explanation": "நீண்ட கட்டண காலம் விற்பனையாளரின் பணப்புழக்கத்தை பாதிக்கலாம்.",
+    "suggested_alternative": "கட்டண காலத்தை 30 நாட்களாக குறைக்கவும்."
+  },
+  {
+    "id": 136,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 137,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 138,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The employer may terminate the employee without any reason by giving 1 day notice.",
+    "risk_level": "High",
+    "explanation": "Unfair termination terms create insecurity for employees.",
+    "suggested_alternative": "Require a minimum notice period of 30 days with valid reasons."
+  },
+  {
+    "id": 139,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The employer may terminate the employee without any reason by giving 1 day notice.",
+    "risk_level": "High",
+    "explanation": "Unfair termination terms create insecurity for employees.",
+    "suggested_alternative": "Require a minimum notice period of 30 days with valid reasons."
+  },
+  {
+    "id": 140,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Tamil",
+    "clause": "விற்பனையாளர் தரம் அல்லது செயல்திறன் குறித்த எந்த உத்தரவாதமும் இன்றி பொருட்களை வழங்குவார்.",
+    "risk_level": "High",
+    "explanation": "உத்தரவாதமின்மை வாங்குபவரை குறைபாடுள்ள பொருட்களுக்கு ஆளாக்குகிறது.",
+    "suggested_alternative": "தரம் மற்றும் செயல்திறனுக்கு குறைந்தபட்ச உத்தரவாதத்தை சேர்க்கவும்."
+  },
+  {
+    "id": 141,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 142,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 143,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Tamil",
+    "clause": "நிறுவனத்தை விட்டு சென்ற பின் 5 ஆண்டுகள் ஊழியர் போட்டியாளர்களிடம் வேலை செய்ய முடியாது.",
+    "risk_level": "High",
+    "explanation": "மிக நீண்ட போட்டி தவிர்ப்பு காலம் அநியாயமாகவும் சட்டரீதியாக செல்லாததாகவும் இருக்கலாம்.",
+    "suggested_alternative": "போட்டி தவிர்ப்பு காலத்தை 6–12 மாதங்களாக மட்டுப்படுத்தவும்."
+  },
+  {
+    "id": 144,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 145,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 146,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 147,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "முதன்மை 1 நாள் முன்னறிவிப்புடன் ஊழியரை காரணமின்றி நீக்கலாம்.",
+    "risk_level": "High",
+    "explanation": "அநியாயமான பணி நீக்க விதிகள் ஊழியர்களுக்கு பாதுகாப்பின்மையை ஏற்படுத்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 148,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 149,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 150,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "मकान मालिक बिना किसी कारण के केवल 7 दिन के नोटिस पर किरायेदार को निकाल सकता है।",
+    "risk_level": "High",
+    "explanation": "कम नोटिस और बिना कारण बेदखली किरायेदार के लिए अनुचित है।",
+    "suggested_alternative": "30–60 दिन का नोटिस और उचित कारण आवश्यक करें."
+  },
+  {
+    "id": 151,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 152,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 153,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 154,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 155,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  },
+  {
+    "id": 156,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 157,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 158,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Hindi",
+    "clause": "नए कर्मचारियों की प्रोबेशन अवधि 12 महीने होगी।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी प्रोबेशन अवधि अनुचित हो सकती है।",
+    "suggested_alternative": "प्रोबेशन अवधि को 3–6 महीने तक सीमित करें."
+  },
+  {
+    "id": 159,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 160,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 161,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 162,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 163,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 164,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 165,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 166,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 167,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 168,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The buyer may terminate the contract without any notice.",
+    "risk_level": "High",
+    "explanation": "Termination without notice puts the vendor at risk.",
+    "suggested_alternative": "Require at least 30 days’ notice for termination."
+  },
+  {
+    "id": 169,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "Tamil",
+    "clause": "புதிய ஊழியர்களின் பரிசோதனை காலம் 12 மாதங்கள் இருக்கும்.",
+    "risk_level": "High",
+    "explanation": "நீண்ட பரிசோதனை காலம் அநியாயமாக இருக்கலாம்.",
+    "suggested_alternative": "பரிசோதனை காலத்தை 3–6 மாதங்களாக நிர்ணயிக்கவும்."
+  },
+  {
+    "id": 170,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "English",
+    "clause": "The buyer must pay the vendor within 60 days of delivery.",
+    "risk_level": "Medium",
+    "explanation": "Extended payment periods may strain vendor cash flow.",
+    "suggested_alternative": "Reduce payment period to 30 days."
+  },
+  {
+    "id": 171,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 172,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 173,
+    "contract_type": "Employment Agreement",
+    "section": "Termination",
+    "language": "Hindi",
+    "clause": "नियोक्ता किसी भी कारण के बिना केवल 1 दिन का नोटिस देकर कर्मचारी को हटा सकता है।",
+    "risk_level": "High",
+    "explanation": "अनुचित समाप्ति शर्तें कर्मचारियों में असुरक्षा पैदा करती हैं।",
+    "suggested_alternative": "30 दिन की नोटिस अवधि और वैध कारण आवश्यक करें."
+  },
+  {
+    "id": 174,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Tamil",
+    "clause": "நிறுவனத்தை விட்டு சென்ற பின் 5 ஆண்டுகள் ஊழியர் போட்டியாளர்களிடம் வேலை செய்ய முடியாது.",
+    "risk_level": "High",
+    "explanation": "மிக நீண்ட போட்டி தவிர்ப்பு காலம் அநியாயமாகவும் சட்டரீதியாக செல்லாததாகவும் இருக்கலாம்.",
+    "suggested_alternative": "போட்டி தவிர்ப்பு காலத்தை 6–12 மாதங்களாக மட்டுப்படுத்தவும்."
+  },
+  {
+    "id": 175,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 176,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 177,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 178,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "Hindi",
+    "clause": "कर्मचारी कंपनी छोड़ने के बाद 5 वर्षों तक किसी प्रतिस्पर्धी के साथ काम नहीं कर सकता।",
+    "risk_level": "High",
+    "explanation": "बहुत लंबी नॉन-कम्पीट अवधि अनुचित और गैरकानूनी हो सकती है।",
+    "suggested_alternative": "नॉन-कम्पीट अवधि को 6–12 महीने तक सीमित करें."
+  },
+  {
+    "id": 179,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 180,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 181,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Tamil",
+    "clause": "வாடகை ஒவ்வொரு ஆண்டும் 15% அதிகரிக்கும்.",
+    "risk_level": "Medium",
+    "explanation": "ஒவ்வொரு ஆண்டும் 15% அதிகரிப்பு வாடகையை விரைவில் கையாள முடியாததாக மாற்றும்.",
+    "suggested_alternative": "அதிகரிப்பை ஆண்டுக்கு 5–7% ஆக வரையறுக்கவும்."
+  },
+  {
+    "id": 182,
+    "contract_type": "Vendor Contract",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வாங்குபவர் எவ்வித முன்னறிவிப்பும் இன்றி ஒப்பந்தத்தை ரத்து செய்யலாம்.",
+    "risk_level": "High",
+    "explanation": "முன்னறிவிப்பு இன்றி ஒப்பந்தத்தை ரத்து செய்வது விற்பனையாளரை அபாயத்தில் ஆழ்த்தும்.",
+    "suggested_alternative": "குறைந்தது 30 நாள் முன்னறிவிப்பு தேவை."
+  },
+  {
+    "id": 183,
+    "contract_type": "Employment Agreement",
+    "section": "Non-Compete",
+    "language": "English",
+    "clause": "The employee may not work with any competitor for 5 years after leaving the company.",
+    "risk_level": "High",
+    "explanation": "An excessively long non-compete period is unfair and may be legally unenforceable.",
+    "suggested_alternative": "Restrict non-compete period to 6–12 months."
+  },
+  {
+    "id": 184,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 185,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 186,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 187,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "Hindi",
+    "clause": "विक्रेता गुणवत्ता या प्रदर्शन पर किसी भी वारंटी के बिना उत्पाद वितरित करेगा।",
+    "risk_level": "High",
+    "explanation": "वारंटी की अनुपस्थिति खरीदार को जोखिम में डालती है।",
+    "suggested_alternative": "गुणवत्ता और प्रदर्शन पर न्यूनतम वारंटी शामिल करें."
+  },
+  {
+    "id": 188,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "English",
+    "clause": "Tenant shall be fully responsible for all repairs and maintenance, including structural damages.",
+    "risk_level": "High",
+    "explanation": "Structural repairs are usually landlord’s responsibility; shifting this burden is risky.",
+    "suggested_alternative": "Limit tenant’s responsibility to minor repairs and utilities."
+  },
+  {
+    "id": 189,
+    "contract_type": "Employment Agreement",
+    "section": "Probation",
+    "language": "English",
+    "clause": "The probation period for new employees shall be 12 months.",
+    "risk_level": "High",
+    "explanation": "Excessively long probation may be unfair and cause dissatisfaction.",
+    "suggested_alternative": "Limit probation to 3–6 months for fair evaluation."
+  },
+  {
+    "id": 190,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 191,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 192,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 193,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "Hindi",
+    "clause": "किराया हर साल 15% बढ़ेगा।",
+    "risk_level": "Medium",
+    "explanation": "हर साल 15% की बढ़ोतरी किराया अनुबंध को महंगा बना सकती है।",
+    "suggested_alternative": "बढ़ोतरी को 5–7% तक सीमित करें."
+  },
+  {
+    "id": 194,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Hindi",
+    "clause": "किरायेदार सभी मरम्मत और रखरखाव के लिए ज़िम्मेदार होगा, जिसमें संरचनात्मक क्षति भी शामिल है।",
+    "risk_level": "High",
+    "explanation": "संरचनात्मक मरम्मत आमतौर पर मकान मालिक की ज़िम्मेदारी होती है।",
+    "suggested_alternative": "किरायेदार की ज़िम्मेदारी केवल छोटे मरम्मत तक सीमित करें."
+  },
+  {
+    "id": 195,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "English",
+    "clause": "The landlord may evict the tenant with 7 days’ notice without any cause.",
+    "risk_level": "High",
+    "explanation": "Short notice eviction without valid reasons is unfair to tenants.",
+    "suggested_alternative": "Require minimum 30–60 days’ notice and valid grounds for eviction."
+  },
+  {
+    "id": 196,
+    "contract_type": "Lease Agreement",
+    "section": "Rent Escalation",
+    "language": "English",
+    "clause": "The rent shall increase by 15% every year.",
+    "risk_level": "Medium",
+    "explanation": "Annual 15% hikes may make the lease unaffordable quickly.",
+    "suggested_alternative": "Cap rent increase to 5–7% annually."
+  },
+  {
+    "id": 197,
+    "contract_type": "Lease Agreement",
+    "section": "Termination",
+    "language": "Tamil",
+    "clause": "வீட்டு உரிமையாளர் 7 நாட்கள் முன்னறிவிப்பில் காரணமின்றி வாடகையாளரை வெளியேற்றலாம்.",
+    "risk_level": "High",
+    "explanation": "மிகக் குறுகிய முன்னறிவிப்பு மற்றும் காரணமின்றி வெளியேற்றுவது வாடகையாளருக்கு அநியாயமாகும்.",
+    "suggested_alternative": "30–60 நாள் முன்னறிவிப்பு மற்றும் சரியான காரணங்கள் தேவை."
+  },
+  {
+    "id": 198,
+    "contract_type": "Lease Agreement",
+    "section": "Maintenance",
+    "language": "Tamil",
+    "clause": "குத்தகையாளர் அனைத்து பழுதுபார்ப்பு மற்றும் பராமரிப்புக்கும் பொறுப்பு, கட்டமைப்பு சேதங்களையும் உட்படுத்தும்.",
+    "risk_level": "High",
+    "explanation": "கட்டமைப்பு பழுதுபார்ப்பு பொதுவாக வீட்டு உரிமையாளரின் பொறுப்பாகும்.",
+    "suggested_alternative": "குத்தகையாளரின் பொறுப்பை சிறிய பழுதுபார்ப்புக்கு மட்டும் வரையறுக்கவும்."
+  },
+  {
+    "id": 199,
+    "contract_type": "Vendor Contract",
+    "section": "Quality",
+    "language": "English",
+    "clause": "The vendor shall deliver products without any warranty on quality or performance.",
+    "risk_level": "High",
+    "explanation": "Lack of warranty exposes the buyer to defective goods risk.",
+    "suggested_alternative": "Include minimum warranty on quality and performance."
+  },
+  {
+    "id": 200,
+    "contract_type": "Vendor Contract",
+    "section": "Payment",
+    "language": "Hindi",
+    "clause": "खरीदार को डिलीवरी के 60 दिनों के भीतर विक्रेता को भुगतान करना होगा।",
+    "risk_level": "Medium",
+    "explanation": "लंबी भुगतान अवधि विक्रेता की नकदी प्रवाह पर दबाव डाल सकती है।",
+    "suggested_alternative": "भुगतान अवधि को 30 दिन तक कम करें."
+  }
+]

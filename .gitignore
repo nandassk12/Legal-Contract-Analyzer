@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# SQLite / local databases
+*.db
+*.sqlite3
+audit_trail.db
+
+# Local data / artifacts (uncomment if needed)
+#data/
+#models/
+#outputs/
+
+
