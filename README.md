@@ -42,31 +42,7 @@
 
 ## 🏗️ Architecture Flow
 
-```
-   [ Upload Contract ] (PDF / DOCX / TXT)
-            │
-            ▼
-   [ Text Extraction ]
-            │
-            ▼
-┌─────────────────────────────────────────┐
-│              Analysis Mode              │
-├────────────────────┬────────────────────┤
-│   AI-Powered Mode  │  Rule-Based Mode   │
-│ (Claude / OpenAI-  │ (Offline Fallback) │
-│  Compatible API)   │                    │
-└──────────┬─────────┴──────────┬─────────┘
-           │                    │
-           └─────────┬──────────┘
-                     ▼
-       [ Compliance & Risk Scoring ]
-                     │
-                     ▼
-       [ Interactive Dashboard & Audit ]
-                     │
-                     ▼
-       [ Export PDF / JSON / CSV ]
-```
+<img src="docs/screenshots/architecture_diagram.png" width="600" alt="Architecture Diagram">
 
 ---
 
