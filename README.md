@@ -145,3 +145,9 @@ Once trained, analyze local PDF, DOCX, or TXT documents using the ML pipeline:
 python inference_pipeline.py --file your_contract.pdf --models_dir models
 ```
 *Note: The ML pipeline is experimental and runs strictly in the command line; it is not integrated with the main Streamlit interface.*
+
+---
+
+## ⚖️ Disclaimer
+
+This tool provides automated contract insights for educational and research purposes. It should not replace professional legal advice.
