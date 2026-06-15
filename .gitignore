@@ -34,7 +34,10 @@ audit_trail.db
 
 # Local data / artifacts (uncomment if needed)
 #data/
-#models/
+models/
 #outputs/
 
-
+# Secrets / environment variables
+.env
+.env.*
+!.env.example

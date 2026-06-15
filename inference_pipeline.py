@@ -15,13 +15,9 @@ from googletrans import Translator
 translator = Translator()
 
 
-# Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\NEKILESH\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
-
 # Load English spaCy model
 nlp = spacy.load("en_core_web_sm")
 
-translator = Translator()
 
 def file_hash(path):
     h = hashlib.sha256()

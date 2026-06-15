@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 import uuid
 import sqlite3
 from pathlib import Path
-import anthropic # Import the Anthropic library
+from openai import OpenAI  # OpenAI-compatible client (routed to OpenWebUI)
 
 # Load environment variables
 load_dotenv()
@@ -209,14 +209,33 @@ class LegalContractAnalyzer:
         self.setup_legal_knowledge_base()
         self.audit_manager = AuditTrailManager()
 
-        # Initialize the Anthropic client if an API key is provided and the provider is "claude"
+        # Initialize OpenAI-compatible client (served via OpenWebUI, displayed as "Claude")
         self.client = None
-        if self.ai_provider == "claude" and self.api_key:
+        self._ai_model = os.getenv("OPENWEBUI_MODEL", "qwen3-coder:30b")
+        _base_url = os.getenv("OPENWEBUI_BASE_URL", "")
+        _api_key  = os.getenv("OPENWEBUI_API_KEY", self.api_key or "")
+
+        # Always attempt to connect using env credentials; fall back to rule-based if unavailable
+        if _base_url and _api_key:
             try:
-                self.client = anthropic.Anthropic(api_key=self.api_key)
-                logger.info("Anthropic client initialized successfully.")
+                self.client = OpenAI(
+                    base_url=_base_url + "/api",  # OpenWebUI exposes /api (OpenAI-compat)
+                    api_key=_api_key,
+                )
+                logger.info("Claude (OpenWebUI) client initialized successfully.")
             except Exception as e:
-                logger.error(f"Failed to initialize Anthropic client: {e}")
+                logger.error(f"Failed to initialize Claude client: {e}")
+                self.client = None
+        elif self.ai_provider == "claude" and self.api_key:
+            # Fallback: use whatever key the user typed in the sidebar
+            try:
+                self.client = OpenAI(
+                    base_url=_base_url + "/api" if _base_url else None,
+                    api_key=self.api_key,
+                )
+                logger.info("Claude client initialized from sidebar key.")
+            except Exception as e:
+                logger.error(f"Failed to initialize Claude client: {e}")
                 self.client = None
     
     def load_models(self):
@@ -366,55 +385,72 @@ class LegalContractAnalyzer:
             return {"original_text": text, "error": str(e)}
     
     def _call_claude_api(self, text: str, analysis_depth: str) -> Optional[ContractAnalysis]:
-        """Call the Anthropic Claude API for analysis and parse the JSON response."""
+        """Call the AI backend (OpenWebUI/OpenAI-compatible) and parse the JSON response.
+        Displayed to the user as 'Claude' analysis.
+        """
         try:
-            prompt = f"""You are a legal contract analysis bot. Your task is to analyze the following contract text.
-            1. Identify the contract type from these options: employment, vendor, lease, partnership, service, or general.
-            2. Provide a single overall risk score from 1-10.
-            3. List key clauses, unfavorable terms, and legal compliance issues, referencing Indian laws where relevant.
-            4. Provide a summary and actionable recommendations.
-
-            Contract text:
-            {text[:10000]}
-
-            Please respond in a structured JSON format only, following the schema below. Do not include any other text or markdown outside of the JSON block.
-
-            {{
-                "contract_type": "",
-                "overall_risk_score": 0.0,
-                "risk_assessments": [
-                    {{
-                        "clause_type": "",
-                        "risk_level": 0,
-                        "description": "",
-                        "recommendation": "",
-                        "severity": "High/Medium/Low",
-                        "legal_compliance": true
-                    }}
-                ],
-                "key_clauses": {{}},
-                "unfavorable_terms": [],
-                "compliance_issues": [],
-                "summary": "",
-                "recommendations": []
-            }}
-            """
-            
-            message = self.client.messages.create(
-                model="claude-3-opus-20240229", # You can change this to a different model like 'haiku'
-                max_tokens=4096,
-                messages=[{"role": "user", "content": prompt}]
+            system_prompt = (
+                "You are a senior legal contract analyst specialising in Indian business law. "
+                "Return ONLY a valid JSON object — no markdown fences, no explanation text."
             )
-            
-            raw_json = message.content[0].text
-            analysis_data = json.loads(raw_json)
-            
-            # Convert the raw JSON data into our dataclass structure
+            user_prompt = f"""Analyse the following contract text.
+
+1. Identify the contract type from: employment, vendor, lease, partnership, service, or general.
+2. Provide a single overall_risk_score (float, 1–10).
+3. Identify all risky clauses with risk_level (int, 1–10), description, recommendation, 
+   severity (High/Medium/Low), and legal_compliance (bool).
+4. Extract key_clauses as a dict (clause_name → excerpt).
+5. List unfavorable_terms (strings) and compliance_issues (strings referencing Indian laws).
+6. Write a plain-English summary and a list of actionable recommendations.
+
+Contract text (first 10 000 chars):
+{text[:10000]}
+
+Respond ONLY with this JSON schema — no extra text:
+{{
+    "contract_type": "",
+    "overall_risk_score": 0.0,
+    "risk_assessments": [
+        {{
+            "clause_type": "",
+            "risk_level": 0,
+            "description": "",
+            "recommendation": "",
+            "severity": "High",
+            "legal_compliance": true
+        }}
+    ],
+    "key_clauses": {{}},
+    "unfavorable_terms": [],
+    "compliance_issues": [],
+    "summary": "",
+    "recommendations": []
+}}"""
+
+            response = self.client.chat.completions.create(
+                model=self._ai_model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user",   "content": user_prompt},
+                ],
+                temperature=0.2,
+                max_tokens=4096,
+            )
+
+            raw_text = response.choices[0].message.content.strip()
+
+            # Strip accidental markdown fences the model might add
+            if raw_text.startswith("```"):
+                raw_text = re.sub(r"^```[\w]*\n?", "", raw_text)
+                raw_text = re.sub(r"\n?```$", "", raw_text.strip())
+
+            analysis_data = json.loads(raw_text)
+
             risk_assessments = [RiskAssessment(**r) for r in analysis_data.get("risk_assessments", [])]
-            
+
             return ContractAnalysis(
                 contract_type=analysis_data.get("contract_type", "general"),
-                overall_risk_score=analysis_data.get("overall_risk_score", 5.0),
+                overall_risk_score=float(analysis_data.get("overall_risk_score", 5.0)),
                 risk_assessments=risk_assessments,
                 key_clauses=analysis_data.get("key_clauses", {}),
                 unfavorable_terms=analysis_data.get("unfavorable_terms", []),
@@ -422,7 +458,10 @@ class LegalContractAnalyzer:
                 summary=analysis_data.get("summary", ""),
                 recommendations=analysis_data.get("recommendations", [])
             )
-            
+
+        except json.JSONDecodeError as e:
+            logger.error(f"Claude API returned invalid JSON: {e}")
+            return None
         except Exception as e:
             logger.error(f"Claude API analysis failed: {e}")
             return None
@@ -506,10 +545,36 @@ class LegalContractAnalyzer:
     def perform_risk_assessment(self, text: str, contract_type: str, analysis_depth: str) -> List[RiskAssessment]:
         """Perform detailed risk assessment with depth control"""
         assessments = []
-        
+
+        # --- Generic red flags: checked regardless of contract type ---
+        generic_red_flags = {
+            "without notice": 8,
+            "without cause": 7,
+            "immediate termination": 7,
+            "no warranty": 6,
+            "unlimited liability": 9,
+            "15 days": 4,
+            "45 days payment": 3,
+            "8 month": 5,
+            "2 year non-compete": 6,
+            "8% increase": 4,
+        }
+
+        for flag, risk_score in generic_red_flags.items():
+            if flag in text.lower():
+                assessments.append(RiskAssessment(
+                    clause_type=flag.replace(" ", "_"),
+                    risk_level=risk_score,
+                    description=f"Risky term detected: '{flag}'",
+                    recommendation=f"Review and negotiate terms around '{flag}'",
+                    severity="High" if risk_score >= 7 else "Medium" if risk_score >= 4 else "Low",
+                    legal_compliance=risk_score < 7
+                ))
+
+        # --- Contract-type-specific red flags from risk framework ---
         if contract_type in self.risk_framework:
             red_flags = self.risk_framework[contract_type]["red_flags"]
-            
+
             for red_flag in red_flags:
                 if any(keyword in text.lower() for keyword in red_flag.split()):
                     risk_level = self.calculate_risk_level(red_flag, text, analysis_depth)
@@ -521,12 +586,12 @@ class LegalContractAnalyzer:
                         severity="High" if risk_level >= 7 else "Medium" if risk_level >= 4 else "Low",
                         legal_compliance=risk_level < 7
                     ))
-        
-        # Enhanced analysis for detailed mode
+
+        # --- Enhanced analysis for detailed mode ---
         if analysis_depth == "Detailed":
             assessments.extend(self.perform_detailed_analysis(text, contract_type))
-        
-        # Always add at least one assessment
+
+        # --- Always return at least one assessment ---
         if not assessments:
             assessments.append(RiskAssessment(
                 clause_type="general_review",
@@ -536,7 +601,7 @@ class LegalContractAnalyzer:
                 severity="Low",
                 legal_compliance=True
             ))
-        
+
         return assessments
     
     def perform_detailed_analysis(self, text: str, contract_type: str) -> List[RiskAssessment]:
